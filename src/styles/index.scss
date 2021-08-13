@@ -1,13 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.square-class {
+    border-radius: 0.2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #525DFF;
+    background: #E7E7E7;
+}
 
-*/
+.many-square-class {
+    display: flex;
+}
+
+.master-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.row  {
+    margin: 0.2rem;
+}
